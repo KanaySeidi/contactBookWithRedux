@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1400px;
+    margin: 150px 150px;
+}
+
+.contact-hero{
+    margin: 3em;
+    display: flex;
+    align-items: center;
+}
+
+.contact-hero img{
+    width: 320px;
+    height: 180px;
+}
+
+.contact-hero svg{
+    margin-left: 2em;
+    fill: white;
+}
+
+.contact-inp-section{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contact-inp-section input{
+    width: 250px;
+    height: 40px; 
+    margin-bottom: 3em;
+    margin-left: 3em;
+    border: 1px none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px gray ;
+}
+
+.contact-inp-section input::placeholder{
+    padding-left: .5em;
+}
+
+.contact-inp-section input:focus{
+    border: none;
+}
+
+
+.contact-inp-section button{
+    width: 250px;
+    height: 40px;
+    margin-left: 3em;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fafafa;
+}
